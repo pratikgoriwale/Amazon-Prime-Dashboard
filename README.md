@@ -16,19 +16,17 @@ This Dashboard aims to aid in **data-informed decision making**, whether for con
 
 ## 🔹Features
 
-✅ **Interactive Visuals:** Filter and highlight data to uncover hidden trends.
-✅ **Comprehensive Metrics:** View total titles, country-wise distribution, and more.
-✅ **Release Trends:** Monitor growth of content over years.
-✅ **Customizable Filters:** Slice and dice by Rating, Country, Type, or Director.
-✅ **User-Friendly Layout:** Designed for non-technical stakeholders to easily navigate.
+**Interactive Visuals:** Filter and highlight data to uncover hidden trends.
+**Comprehensive Metrics:** View total titles, country-wise distribution, and more.
+**Release Trends:** Monitor growth of content over years.
+**Customizable Filters:** Slice and dice by Rating, Country, Type, or Director.
+**User-Friendly Layout:** Designed for non-technical stakeholders to easily navigate.
 
 ---
 
 ## 🔹Tech Stack
 
 * **Microsoft Power BI Desktop**
-* **DAX (Data Analysis Expressions)**
-* **Power Query (ETL)**
 * **Amazon Prime titles CSV (open-source)**
 
 ---
@@ -90,7 +88,7 @@ amazon-prime-dashboard/
 
 ## 🔹Preview (Optional)
 
-![Amazon Prime Dashboard Preview](prime logo.jpeg)
+https://github.com/pratikgoriwale/Amazon-Prime-Dashboard/blob/main/prime%20logo.jpeg
 
 ---
 
@@ -127,8 +125,6 @@ git push origin feature-name
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-🚀 If you find this repository helpful, please **star ⭐ it and follow** for future updates.
 
 ---
 
