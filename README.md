@@ -86,12 +86,6 @@ amazon-prime-dashboard/
 
 ---
 
-## 🔹Preview (Optional)
-
-https://github.com/pratikgoriwale/Amazon-Prime-Dashboard/blob/main/prime%20logo.jpeg
-
----
-
 ## 🔹Contribution
 
 Contributions are warmly welcomed.
@@ -123,10 +117,3 @@ git push origin feature-name
 ## 🔹License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
----
-
-If you'd like, I can **provide a sample `.pbix` file and CSV** to kickstart your project.
-Just let me know! 🌟
