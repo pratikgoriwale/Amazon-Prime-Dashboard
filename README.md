@@ -1,91 +1,70 @@
 # Amazon Prime Dashboard in Power BI
 
-This **Amazon Prime Dashboard** is a Power BI project designed to visualize and explore key metrics and trends related to Amazon Prime content (Movies and TV Shows). It covers:
+## 🔹 Project Overview
 
-* Number of titles by **type**, **release year**, and **rating**
-* Distribution of content by **genres**, **directors**, and **countries**
-* Top **directors**, **actors**, and **countries**
-* Rating trends and release patterns over time
-* User-friendly charts and interactive filters to aid in insightful decision-making
+The **Amazon Prime Dashboard** is a **Business Intelligence** solution designed to provide insightful, interactive, and actionable reports on Amazon Prime content.
+Using Microsoft Power BI, this project transforms raw data into rich visual stories — helping stakeholders to:
+
+* Analyze **Movies vs TV Shows**
+* View **Content Distribution by Rating, Country, and Genre**
+* Identify **Trending Directors, Actors, and Categories**
+* Monitor **Release Trends and Patterns Over Time**
+
+This Dashboard aims to aid in **data-informed decision making**, whether for content analysts, media companies, or stakeholders in the entertainment industry.
 
 ---
 
 ## 🔹Features
 
-✅ **Interactive Dashboard:** Allows you to filter by release year, country, or rating.
-
-✅ **Comprehensive Visuals:** Bar charts, pie charts, and maps to visualize content distribution.
-
-✅ **Trending Analysis:** Shows trends in content addition over time.
-
-✅ **Custom Filters:** Allows you to drill down into your view (by actor, country, rating, etc.).
+✅ **Interactive Visuals:** Filter and highlight data to uncover hidden trends.
+✅ **Comprehensive Metrics:** View total titles, country-wise distribution, and more.
+✅ **Release Trends:** Monitor growth of content over years.
+✅ **Customizable Filters:** Slice and dice by Rating, Country, Type, or Director.
+✅ **User-Friendly Layout:** Designed for non-technical stakeholders to easily navigate.
 
 ---
 
 ## 🔹Tech Stack
 
 * **Microsoft Power BI Desktop**
-* **Power Query / M**
-* **DAX for Calculations**
-* **Amazon Prime Title CSV** (source data)
+* **DAX (Data Analysis Expressions)**
+* **Power Query (ETL)**
+* **Amazon Prime titles CSV (open-source)**
 
 ---
 
-## 🔹Installation
+## 🔹Installation Guide
 
 Follow these steps to view or customize the **Amazon Prime Dashboard**:
 
-1️⃣ **Clone this repository or Download ZIP**
+---
+
+### 1️⃣. Download or Clone this Repository:
 
 ```bash
 git clone https://github.com/pratikgoriwale/amazon-prime-dashboard.git
 ```
 
-2️⃣ **Extract ZIP** (if downloaded)
-
-```bash
-unzip amazon-prime-dashboard.zip
-```
+➥ Alternatively, **Download ZIP** from GitHub and extract it.
 
 ---
 
-## 🔹How to Run Project
+### 2️⃣. Open in Power BI Desktop:
 
-1️⃣ **Open Power BI Desktop.**
-
-➥ If you don't have it installed, [download it here](https://powerbi.microsoft.com/desktop/) and follow the installation instructions.
-
-2️⃣ **Open the `.pbix` file.**
-
-➥ Inside this repository, you'll find **Amazon Prime Dashboard.pbix**.
-➥ Double-click it or launch Power BI Desktop and select:
+➥ **Launch Power BI Desktop** ([https://powerbi.microsoft.com/desktop/](https://powerbi.microsoft.com/desktop/))
+➥ **Open the `.pbix` file**:
 
 ```
 File → Open → Browse to Amazon Prime Dashboard.pbix
 ```
 
-3️⃣ **View or Customize.**
-
-➥ Once opened, you can view all the charts and interactive reports.
-➥ To customize, select charts and fields to adjust their settings.
-
 ---
 
-## 🔹Data Source (optional)
+### 3️⃣. (Optional) Update Source (if you have a new CSV file)
 
-➥ The CSV files (`amazon_prime_titles.csv`) used for this project are located in the `data/` directory.
-➥ If you want to refresh or connect it to a new CSV, you can:
-
-* Select **Transform Data** in Power BI.
-* Update the **Source** path to your CSV.
-
----
-
-## 🔹Requirements
-
-✅ **Power BI Desktop (October 2020 or later)**
-✅ **Windows OS (for Power BI Desktop)**
-✅ **Amazon Prime titles CSV file**
+➥ Select **Transform Data** in Power BI.
+➥ Update **Source** to your CSV file's path.
+➥ Apply the modifications.
 
 ---
 
@@ -101,21 +80,45 @@ amazon-prime-dashboard/
 
 ---
 
-## 🔹Preview (optional)
+## 🔹Requirements
 
-![Dashboard Preview](https://your-repo-link.com/image.jpg)
+✅ **Microsoft Power BI Desktop (October 2020 or later)**
+✅ **Windows OS (Power BI Desktop is currently available for Windows only)**
+✅ **Amazon Prime titles CSV (open-source or downloaded from Kaggle)**
+
+---
+
+## 🔹Preview (Optional)
+
+![Amazon Prime Dashboard Preview](https://your-repo-link.com/image.jpg)
 
 ---
 
 ## 🔹Contribution
 
-Contributions are warmly welcomed!
-If you'd like to improve this, please:
+Contributions are warmly welcomed.
+To contribute:
 
-➥ Fork this repository.
-➥ Create a new branch.
-➥ Push your changes.
-➥ Open a **Pull Request**.
+➥ **Fork this repository.**
+➥ **Create a new branch:**
+
+```bash
+git checkout -b feature-name
+```
+
+➥ **Make your modifications and commit:**
+
+```bash
+git commit -m "Add a new feature"
+```
+
+➥ **Push back to your repository:**
+
+```bash
+git push origin feature-name
+```
+
+➥ **Open a Pull Request** for review.
 
 ---
 
@@ -125,8 +128,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-🚀 If you find this useful, please **star ⭐ the repository** and **give it a follow!**
+🚀 If you find this repository helpful, please **star ⭐ it and follow** for future updates.
 
 ---
 
-If you'd like, I can **add a sample .pbix file and CSV for you**. Just let me know! 🌟
+If you'd like, I can **provide a sample `.pbix` file and CSV** to kickstart your project.
+Just let me know! 🌟
