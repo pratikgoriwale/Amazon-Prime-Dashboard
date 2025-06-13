@@ -90,7 +90,7 @@ amazon-prime-dashboard/
 
 ## 🔹Preview (Optional)
 
-![Amazon Prime Dashboard Preview](https://your-repo-link.com/image.jpg)
+![Amazon Prime Dashboard Preview](prime logo.jpeg)
 
 ---
 
